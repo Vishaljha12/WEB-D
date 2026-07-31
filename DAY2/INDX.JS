@@ -10,3 +10,6 @@ function add(x, y){
 
 var result = add(5, 10);
 console.log("RESULT IS:", result);
+
+percentage = (result/100)*100;
+console.log("PERCENTAGE IS:", percentage);
