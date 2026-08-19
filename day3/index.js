@@ -17,3 +17,4 @@ console.log(g);
 
 console.log(k.charAt(0));
 console.log(k.indexOf("World"));
+console.log(k.lastIndexOf("e"));
