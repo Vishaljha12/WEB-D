@@ -26,3 +26,37 @@ let n=k.split(" ");
 console.log(n);
 
 console.log(k.replace("Woreld", "kkkassskksksk"));
+console.log(k.concat(" ", "How are you?"));
+console.log(k.includes("Hello"));
+
+let x=[
+    {"leop":50 , "name":"leopard"},
+    {"le":60 , "name":"jao"},
+    {"lep":850 , "name":"kakk"},
+    
+]
+console.log(x[0].name);
+console.log(x[1].name);
+console.log(x[2].name);
+
+x.unshift({"leop":100 , "name":"newanimal"});
+console.log(x);
+x.shift();
+console.log(x);
+
+let date=new Date();
+
+console.log(date);
+console.log(date.getFullYear());
+console.log(date.getMonth());
+console.log(date.getDate());
+
+//all math func
+let math= Math;
+let arr=[1,2,3,4,5,6,7,8,9,10];
+console.log(math.max(...arr));
+console.log(math.min(...arr));
+console.log(math.abs(-5));
+console.log(math.round(5.5));
+console.log(math.floor(5.9));
+console.log(math.ceil(5.1));
