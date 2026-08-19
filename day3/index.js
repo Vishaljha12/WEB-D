@@ -21,3 +21,8 @@ console.log(k.lastIndexOf("e"));
 
 let m=k.slice(0,5);
 console.log(m);
+
+let n=k.split(" ");
+console.log(n);
+
+console.log(k.replace("Woreld", "kkkassskksksk"));
